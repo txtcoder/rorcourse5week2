@@ -27,11 +27,11 @@ function ShoppingListCheckOffService() {
 
 
   // List of shopping items
-  var toBuys = [{name: "cookies", quantity: 10},
-{name: "cookies", quantity: 10},
-{name: "cookies", quantity: 10},
-{name: "cookies", quantity: 10},
-{name: "cookies", quantity: 10}];
+  var toBuys = [{name: "Cookies", quantity: 10},
+{name: "Donuts", quantity: 3},
+{name: "Jellybeans", quantity: 1337},
+{name: "Kitkat", quantity: 100},
+{name: "Marshmallow", quantity: 40}];
   var alreadyBought = [];
 
   this.getAlreadyBought = function () {
